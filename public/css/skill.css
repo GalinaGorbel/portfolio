@@ -1,0 +1,22 @@
+.about {
+  background: #f5f5f5; }
+
+.skill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .skill__item-top {
+    font: 700 15px/1.2 Raleway, sans-serif;
+    text-transform: uppercase; }
+  .skill__item {
+    background: #fff;
+    border-bottom: 1px solid #d4d4d4;
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0 10px 20px;
+    border-radius: 3px; }
+
+@media (min-width: 425px) {
+  .skill {
+    flex-wrap: nowrap;
+    justify-content: space-between; } }

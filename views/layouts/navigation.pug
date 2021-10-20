@@ -1,0 +1,16 @@
+block styles
+    link(rel="stylesheet", href="/css/navigation.css")
+
+header.header
+    .container
+        nav.navbar
+            a(class="navbar__logo" href="/") Galina Gorbel
+            ul.navbar__list
+                li.navbar__list-item
+                    a(href="/", class=(path === '/' ? 'active' : '')) Home
+                li.navbar__list-item
+                    a(href="/about", class=(path === '/about' ? 'active' : '')) About
+                li.navbar__list-item
+                    a(href="/portfolio", class=(path === '/portfolio' ? 'active' : '')) Portfolio
+                li.navbar__list-item
+                    a(href="/contact", class=(path === '/contact' ? 'active' : '')) Contact

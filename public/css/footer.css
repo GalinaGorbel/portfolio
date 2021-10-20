@@ -1,0 +1,28 @@
+.footer {
+  background: #222;
+  text-align: center;
+  padding: 40px 0;
+  color: #FFF; }
+  .footer span {
+    color: #ff5252;
+    margin: 5px; }
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  display: flex;
+  justify-content: center; }
+  .social-links a {
+    width: 36px;
+    height: 36px;
+    display: block;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.2); }
+  .social-links li {
+    display: inline-block;
+    margin: 5px; }

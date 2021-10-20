@@ -1,0 +1,38 @@
+.contact__btn {
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  letter-spacing: 1px;
+  font-size: 13px;
+  border-radius: 3px;
+  background: rgba(17, 17, 17, 0.8);
+  border: 1px solid #D8E1E4;
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  cursor: pointer; }
+
+.contact__message {
+  color: #E7746F; }
+
+.form {
+  margin-bottom: 15px; }
+  .form__control {
+    margin-bottom: 15px; }
+  .form__item {
+    display: block;
+    width: 100%;
+    height: 34px;
+    border-radius: 3px;
+    background: #FFF;
+    border: 1px solid #D8E1E4;
+    font-size: 12px;
+    padding: 0 15px; }
+    .form__item-text {
+      height: auto; }
+
+@media (min-width: 768px) {
+  .contact__wraper {
+    width: 60%;
+    margin-left: 25%;
+    font-size: 30px; } }

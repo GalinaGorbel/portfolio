@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif; }
+  .navbar__logo {
+    padding: 15px 15px;
+    font-size: 22px;
+    font-family: Lobster, cursive; }
+  .navbar__list {
+    display: flex;
+    list-style: none;
+    padding-left: 0px; }
+  .navbar__list-item a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    font-size: 11px; }
+  .navbar__logo, .navbar__list-item a {
+    letter-spacing: 3px;
+    color: black; }
+
+@media (min-width: 768px) {
+  .navbar {
+    justify-content: space-between; }
+    .navbar_portfolio {
+      justify-content: center; } }

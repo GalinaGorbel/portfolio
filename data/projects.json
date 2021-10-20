@@ -1,0 +1,50 @@
+[
+    {
+        "skill": "js",
+        "img": "img/body.png",
+        "name": "body",
+        "url": "https://galinagorbel.github.io/diplom/index.html",
+        "gitHub": "https://github.com/GalinaGorbel/diplom",
+        "description": "JavaScript"
+    },
+    {
+        "skill": "vue",
+        "img": "img/technologist.png",
+        "name": "technologist",
+        "url": "https://github.com/GalinaGorbel/technologist/blob/main/README.md",
+        "gitHub": "https://github.com/GalinaGorbel/technologist",
+        "description": "Vue, vuex, routing, scss, json-server"
+    },
+    {
+        "skill": "web",
+        "img": "img/uber.png",
+        "name": "uber",
+        "url": "https://galinagorbel.github.io/Uber_landing-page",
+        "gitHub": "https://github.com/GalinaGorbel/Uber_landing-page",
+        "description": "adaptive layout, sass, bootstrap grid"
+    },
+    {
+        "skill": "web",
+        "img": "img/ftl.png",
+        "name": "ftl",
+        "url": "https://galinagorbel.github.io/FTL/",
+        "gitHub": "https://github.com/GalinaGorbel/FTL",
+        "description": "BEM-naming, SCSS, adaptive layout"
+    },
+    {
+        "skill": "web",
+        "img": "img/cats.png",
+        "name": "cats",
+        "url": "https://galinagorbel.github.io/CatShop_pages/",
+        "gitHub": "https://github.com/GalinaGorbel/CatShop",
+        "description": "BEM-naming, SCSS, adaptive layout, js for sorting"
+    },
+    {
+        "skill": "vue",
+        "img": "img/purchases.png",
+        "name": "purchases",
+        "url": "https://github.com/GalinaGorbel/purchases/blob/main/README.md",
+        "gitHub": "https://github.com/GalinaGorbel/purchases",
+        "description": "vue, vuex, json-server, vuelidate, axios"
+    }
+]

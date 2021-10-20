@@ -1,0 +1,45 @@
+.portfolio
+    &__content
+        display: flex
+        flex-wrap: wrap
+    &__item
+        animation: show 2s both
+        position: relative
+        &-main
+            margin: 10px
+            img
+                position: relative
+                display: block
+                min-height: auto
+                max-width: 100%
+        &-back
+            position: absolute
+            opacity: 0
+            z-index: 1
+            width: 100%
+            height: 100%
+            top: 0vh
+            background: rgba(0,0,0,.7)
+            transition: .5s
+            display: flex
+            flex-direction: column
+            padding: 80px 50px 10px
+            p
+                color: rgb(255, 255, 255)
+            div
+                display: flex
+                justify-content: space-between
+                a
+                    text-transform: uppercase
+                    color: rgb(255, 255, 255)
+
+@media (min-width: 768px)
+    .portfolio
+        &__item
+            width: 33.33333333%
+
+@keyframes show
+    0%
+        opacity: 0
+    100%
+        opacity: 1

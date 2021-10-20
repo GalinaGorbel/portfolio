@@ -1,0 +1,32 @@
+extends layouts/main-layout.pug
+
+block content
+    section.portfolio.block 
+        .container
+            .wrapper
+                .wrapper__top.wrapper__top-portfolio
+                    h2.title my works
+                    .line    
+                    .subtitle at Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                nav.navbar.navbar_portfolio
+                    ul.navbar__list
+                        li.navbar__list-item
+                            a(href="?page=all", class=(query === 'all' || !query ? 'active' : '')) All
+                        li.navbar__list-item
+                            a(href="?page=js", class=(query === 'js' ? 'active' : '')) Js
+                        li.navbar__list-item
+                            a(href="?page=web", class=(query === 'web' ? 'active' : '')) Web
+                        li.navbar__list-item
+                            a(href="?page=vue", class=(query === 'vue' ? 'active' : '')) Vue
+                .portfolio__content        
+                    each project in projects 
+                        article.portfolio__item
+                            .portfolio__item-main 
+                                img(src="/" + project.img, alt=project.name)
+                            .portfolio__item-back  
+                                p #{project.description}
+                                .line.line_item-back
+                                div 
+                                    a(href=project.url target="_blank") Открыть
+                                    a(href=project.gitHub target="_blank") Git-hub
+                                     

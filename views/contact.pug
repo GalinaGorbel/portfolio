@@ -1,0 +1,21 @@
+extends layouts/main-layout.pug
+
+block content
+    main
+        section.contact.block
+            .container
+                .wrapper.wrapper_contact
+                    .wrapper__top
+                        h2.title drop me a line
+                        .line    
+                        .subtitle Impressed with my works? Get in touch with me!
+                        if errorMessage
+                            p.contact__message #{errorMessage}
+                    form(action="/contact", method="post" novalidate).form 
+                        .form__control
+                            input.form__item(type="text" name="name" placeholder="Name" value=oldInput.name)#name
+                        .form__control
+                            input.form__item(type="email" name="email" placeholder="E-mail" value=oldInput.email)#email
+                        .form__control
+                            textarea.form__item.form__item-text(name="message" cols="30" rows="7" placeholder="Message")    
+                        button.contact__btn(type="submit") Send Message 
