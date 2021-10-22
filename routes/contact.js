@@ -19,9 +19,8 @@ router.post('/contact',
             .withMessage('Please, enter a valid Email')
             .normalizeEmail(),
         body('message', 'Please, enter a message')
-            .trim()
-            .notEmpty()
-            .isAlphanumeric()
+            .isLength({ min: 1 })
+            .isAlpha()
     ],
     contactController.postContact)
 
