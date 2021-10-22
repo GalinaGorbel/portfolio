@@ -20,7 +20,6 @@ router.post('/contact',
             .normalizeEmail(),
         body('message', 'Please, enter a message')
             .isLength({ min: 1 })
-            .isAlpha()
     ],
     contactController.postContact)
 
